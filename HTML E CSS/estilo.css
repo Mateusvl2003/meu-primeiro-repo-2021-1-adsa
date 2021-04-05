@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #232323;
+    color: white;
+    /*height: 80px; */
+    overflow: auto;
+    border-bottom: 3px solid blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.titulo {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.header .navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: yellowgreen;
+}
+
+#home a {
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: yellowgreen;
+    padding: 10px;
+}
+
+#quem-somos {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(img/pexels-noel-mcshane-1036148.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.menu-informacao {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.menu-informacao li {
+    padding: 10px;
+    margin: 1px;
+    background-color: goldenrod;
+    list-style: none;
+}
+
+.menu-informacao li:hover {
+    background-color: yellowgreen;
+}
+
+.menu-informacao a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.menu-informacao a:hover {
+    color: goldenrod;
+}
+
+#destaques {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#cadastro h2,
+#cadastro p,
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contato-dir {
+    background-color: rgba(204, 151, 142, 0.3);
+    padding: 30px;
+}
+
+.cadastro {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.rede {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #007290;
+    border-radius: 4px;
+}
+
+form {
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 400px;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=date]:focus {
+    background-color: #9DC0BC;
+    outline: none;
+    color: white;
+}
+
+input[type=text],
+input[type=number],
+input[type=date] {
+    border: 1px solid #9DC0BC;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 12px;
+}
+
+input[type=submit] {
+    background-color: #CC978E;
+    color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.banner {
+    text-align: center;
+    background-color: rebeccapurple;
+    background-image: url(img/pexels-noel-mcshane-1036148.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner h1 {
+    margin: 0px;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.banner h3 {
+    color: #555;
+}
+
+.saiba-mais button {
+    border: 0;
+    background-color: yellowgreen;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: #232323;
+    height: 90px;
+}
+
+.box img {
+    height: 100px;
+}
+
+.box {
+    /* border: 3px solid yellowgreen; */
+    overflow: auto;
+}
+
+.box-item {
+    /* border 1px solid purple; */
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+}
+
+.footer {
+    text-align: center;
+    background-color: yellowgreen;
+    height: 90px;
+    width: 100%;
+}
+
+.footer h4 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 100;
+    color: white;
+}
